@@ -9,10 +9,9 @@ export default function ProfileContact({
 }: PropsWithChildren<{ payload: IProfile.Contact }>) {
   return (
     <Row className="pb-2">
-      <Col xs={1} className="text-right">
-        <FontAwesomeIcon icon={payload.icon} />
+      <Col xs="12">
+        <FontAwesomeIcon className="mr-2" icon={payload.icon} /> {createLink(payload)}
       </Col>
-      <Col xs="auto">{createLink(payload)}</Col>
     </Row>
   );
 }

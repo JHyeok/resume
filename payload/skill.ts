@@ -4,7 +4,11 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
+      title: 'C#',
+      level: 3,
+    },
+    {
+      title: 'IIS',
       level: 3,
     },
     {
@@ -12,19 +16,27 @@ const backend: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'PHP',
+      title: 'ASP.NET',
+      level: 3,
+    },
+    {
+      title: 'TypeScript',
+      level: 2,
+    },
+    {
+      title: 'Express.js',
+      level: 2,
+    },
+    {
+      title: 'Nginx',
+      level: 2,
+    },
+    {
+      title: 'Python',
       level: 2,
     },
     {
       title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
       level: 1,
     },
   ],
@@ -38,12 +50,8 @@ const database: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Oracle',
-      level: 2,
-    },
-    {
-      title: 'Redis',
-      level: 2,
+      title: 'MSSQL',
+      level: 3,
     },
     {
       title: 'MongoDB',
@@ -56,11 +64,7 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
-    },
-    {
-      title: 'React.js',
+      title: 'Nuxt.js',
       level: 2,
     },
     {
@@ -71,6 +75,14 @@ const frontend: ISkill.Skill = {
       title: 'HTML/CSS',
       level: 2,
     },
+    {
+      title: 'Vue.js',
+      level: 1,
+    },
+    {
+      title: 'React.js',
+      level: 1,
+    },
   ],
 };
 
@@ -78,10 +90,10 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
-      title: 'Ubuntu',
+      title: 'CentOS',
     },
     {
-      title: 'Vim',
+      title: 'Jira',
     },
     {
       title: 'Security',
@@ -93,7 +105,25 @@ const etc: ISkill.Skill = {
       title: 'Jira',
     },
     {
-      title: 'Confluence',
+      title: 'Selenium',
+    },
+    {
+      title: 'Docker',
+    },
+    {
+      title: 'DevOps',
+    },
+    {
+      title: 'Git',
+    },
+    {
+      title: 'Socket.io',
+    },
+    {
+      title: 'Jenkins',
+    },
+    {
+      title: 'Slack',
     },
   ],
 };

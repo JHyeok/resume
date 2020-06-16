@@ -4,55 +4,32 @@ const openSource: IOpenSource.Payload = {
   disable: false,
   list: [
     {
-      title: 'node',
+      title: 'jaebook-server',
       descriptions: [
-        { content: 'Node.js JavaScript runtime' },
-        { content: 'Contributor' },
+        { content: 'jaebook의 BackEnd' },
+        { content: 'Express.js with TypeScript' },
+        { content: 'Owner & Maintainer' },
         {
-          content: 'https://github.com/nodejs/node',
-          href: 'https://github.com/nodejs/node',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nodejs/node.svg?style=popout',
+          content: 'https://github.com/JHyeok/jaebook-server',
+          href: 'https://github.com/JHyeok/jaebook-server',
         },
       ],
     },
     {
-      title: 'NestJS',
+      title: 'jaebook-client',
       descriptions: [
         {
-          content: 'A progressive Node.js framework',
+          content: 'jaebook의 FrontEnd',
         },
         {
-          content:
-            'for building efficient, scalable, and enterprise-grade server-side applications',
+          content: 'Nuxt.js with TypeScrpt',
         },
         {
-          content: 'Contributor',
+          content: 'Owner & Maintainer',
         },
         {
-          content: 'https://github.com/nestjs/nest',
-          href: 'https://github.com/nestjs/nest',
-        },
-        {
-          content: 'Monthly Download: ',
-          postImage: 'https://img.shields.io/npm/dm/@nestjs/core.svg',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nestjs/nest.svg?style=popout',
-        },
-      ],
-    },
-    {
-      title: 'Developer Community',
-      descriptions: [
-        {
-          content: 'Presentation in 2019',
-        },
-        {
-          content: 'Hackathon participation in 2017',
+          content: 'https://github.com/JHyeok/jaebook-client',
+          href: 'https://github.com/JHyeok/jaebook-client',
         },
       ],
     },

@@ -1,16 +1,15 @@
 import { IIntroduce } from '../component/introduce/IIntroduce';
-import { lastestUpdatedAt } from '../package.json';
+import { lastestUpdatedAt, author } from '../package.json';
 
 const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor. Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien. Proin bibendum non nibh eu aliquet. In sit amet arcu sed nisi tincidunt ultricies. Fusce magna tellus, egestas at pretium quis, rutrum et ante. Phasellus efficitur lectus felis, sed lacinia enim rhoncus ut. Sed id mi vitae neque aliquet porttitor. Fusce dignissim ipsum urna, at finibus lectus sodales ut. Nulla ut purus vestibulum, dapibus tellus consequat, porttitor purus. Nunc egestas tortor ut vehicula mollis.',
-    'Integer ut libero eu libero mattis rutrum at at urna. Integer non turpis ante. Suspendisse vestibulum odio id libero facilisis gravida. In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus. Quisque ornare eget ex ut congue. Nam vel finibus sem. Phasellus id neque nibh. Nullam turpis velit, pharetra vitae mi non, bibendum maximus urna.',
+    '기술 블로그를 운영하고 있으며 기술 블로그는 Gatsby를 사용해서 직접 커스터마이징 하고 개발할 정도로 일상 생활에서 개발을 가까이하고 재밌어 합니다.',
+    '새로운 기술을 익히고 숙달하기 위해 jaebook-server, jaebook-client 등 사이드 프로젝트를 합니다.',
+    '더 좋은 개발자가 되기 위해서 항상 학습하고, 노력합니다',
   ],
-  sign: 'Love poem',
-  // sign: packageJson.author.name,
-  // latestUpdated: '2019-07-24',
+  sign: author.name,
   latestUpdated: lastestUpdatedAt,
 };
 
