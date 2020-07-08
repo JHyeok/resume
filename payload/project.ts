@@ -52,9 +52,9 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'QPlex 3.0 개발',
+      title: 'QPlex 3.0 개발 및 유지보수',
       startedAt: '2019-01',
-      endedAt: '2019-09',
+      endedAt: '2020-02',
       where: '큐로드 (QROAD)',
       descriptions: [
         { content: 'ASP.NET MVC, ORM을 사용하여 개발' },
