@@ -36,6 +36,10 @@ const backend: ISkill.Skill = {
       level: 2,
     },
     {
+      title: 'NestJS',
+      level: 1,
+    },
+    {
       title: 'Java',
       level: 1,
     },
