@@ -50,7 +50,11 @@ function createTooltip(content?: string) {
   return (
     <small>
       {' '}
-      <FontAwesomeIcon icon={faQuestionCircle} id="skill-tooltip" />
+      <FontAwesomeIcon
+        icon={faQuestionCircle}
+        style={{ maxHeight: '320px', height: '1em' }}
+        id="skill-tooltip"
+      />
       <Tooltip
         style={{ whiteSpace: 'pre-wrap' }}
         placement="right"
