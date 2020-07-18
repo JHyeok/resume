@@ -55,11 +55,7 @@ const database: ISkill.Skill = {
     },
     {
       title: 'MSSQL',
-      level: 3,
-    },
-    {
-      title: 'MongoDB',
-      level: 1,
+      level: 2,
     },
   ],
 };
@@ -98,9 +94,6 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'Jira',
-    },
-    {
-      title: 'Security',
     },
     {
       title: 'VS Code',
