@@ -52,7 +52,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'QPlex 3.0 개발 및 유지보수',
+      title: '큐플렉스 3.0 개발 및 유지보수',
       startedAt: '2019-01',
       endedAt: '2020-02',
       where: '큐로드 (QROAD)',
