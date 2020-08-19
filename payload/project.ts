@@ -57,7 +57,7 @@ const project: IProject.Payload = {
       endedAt: '2020-02',
       where: '큐로드 (QROAD)',
       descriptions: [
-        { content: 'ASP.NET MVC, ORM을 사용하여 개발' },
+        { content: 'ASP.NET MVC, Entity Framework(ORM)을 사용하여 개발' },
         { content: 'AWS EC2, S3 사용' },
         { content: 'AWS RDS의 MySQL을 데이터베이스로 사용' },
         {
@@ -83,7 +83,10 @@ const project: IProject.Payload = {
         {
           content: 'Ticket 처리',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Kafka .NET을 사용해 티켓 처리 모듈 개발' }],
+          descriptions: [
+            { content: 'Kafka .NET을 사용해 티켓 처리 모듈 개발' },
+            { content: '티켓 유실에 대한 처리 모듈 개발' },
+          ],
         },
       ],
     },
